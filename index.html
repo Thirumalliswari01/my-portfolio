@@ -1,0 +1,356 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - CodeCreators</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+
+</head>
+<body>
+    <!----Nav Menu---->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Thiru</p>
+            </div>
+            <div class="nav-menu"id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#certifications" class="nav-link">Certifications</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dark Mode-->
+             <div class="mode">
+                <div class="moon-sun"  id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+             </div>
+             <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+             </div>
+        </nav>
+        <!--main-->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <h1>Hi, I'm <span class="highlight">Thirumalleswari</span></h1>
+                    <p class="typing-container">I'm a <span class="typing-text"></span></p>
+                    
+                    <div class="text-btn">
+                        <a href="Thirumalleswari_resume.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                    
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/thiru_.01" target="_blank" class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/Thirumalliswari01" target="_blank" class="icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/thirumalleswaripayani" target="_blank" class="icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/thirumalliswari1" target="_blank" class="icon icon-hackerrank">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <!-- Developer girl character image -->
+                    <img src="hero-girl.png" alt="Developer Character">
+                    
+                    <!-- Floating icons for programming languages -->
+                    <div class="floating-icon icon-1" style="width: 70px; height: 70px; background: linear-gradient(135deg, #f89820 0%, #c74634 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 28px; box-shadow: 0 10px 30px rgba(248, 152, 32, 0.4);"><i class="fab fa-java"></i></div>
+                    <div class="floating-icon icon-2" style="width: 70px; height: 70px; background: linear-gradient(135deg, #e34c26 0%, #f06529 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 28px; box-shadow: 0 10px 30px rgba(227, 76, 38, 0.4);"><i class="fab fa-html5"></i></div>
+                    <div class="floating-icon icon-3" style="width: 70px; height: 70px; background: linear-gradient(135deg, #00758f 0%, #00a0c6 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 28px; box-shadow: 0 10px 30px rgba(0, 117, 143, 0.4);"><i class="fas fa-database"></i></div>
+                    <div class="floating-icon icon-4" style="width: 70px; height: 70px; background: linear-gradient(135deg, #f0db4f 0%, #f7df1e 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #323330; font-weight: bold; font-size: 32px; box-shadow: 0 10px 30px rgba(247, 223, 30, 0.4);">JS</div>
+                </div>
+            </section>
+            <!----About Box-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="about-container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="thiru1.jpeg" alt="Profile Image">
+                        </div>
+                        <div class="about-col-2">
+                            <h2 class="about-name">Thirumalleswari Payani</h2>
+                            <p>I am a Computer Science graduate and aspiring Full Stack Developer with hands-on experience in Java, JSP, JDBC, MySQL, HTML, and CSS. I have built a complete Online Food Delivery Application with user authentication and database integration, along with academic projects including a CNN-based Traffic Sign Management System. I focus on writing clean backend logic and building structured, functional web applications.</p>
+            
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('personal-info')">Personal Info</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            
+                            <div class="tab-contents active-tab" id="personal-info">
+                                <ul>
+                                    <li><span><strong> Email</strong></span> : thirumalliswari05@gmail.com</li>
+                                    <li><span><strong> Phone</strong></span> : +91 9390745009</li>
+                                    <li><span><strong> Languages Known </strong></span> : English, Telugu, Tamil</li>
+                                    <li><span><strong> Location</strong></span> : Bangalore, India</li>
+                                </ul>
+                            </div>
+            
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2020-2024</span><br>Siddharth Institute of Engineering and Technology, Puttur </li>
+                                    <li><span>2018-2020</span><br>APSW.RESI SCHOOL/Junior College(G), Srikalahasthi</li>
+                                    <li><span>2017-2018</span><br>APSW.RESI SCHOOL/Junior College(G) ,Puttur</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!----------- Skills Section ----------- -->
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>My <span style="color: var(--primary-color);">Skills</span></h1>
+                    <p>Technologies and tools I work with to create amazing web experiences</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon-img">
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="skill-icon-img">
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-icon-img">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-icon-img">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon-img">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="skill-icon-img">
+                        <h3>Git</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="skill-icon-img">
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VsCode" class="skill-icon-img">
+                        <h3>VsCode</h3>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" class="skill-icon-img">
+                        <h3>Eclipse</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!----------- Portfolio ----------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="work-2.jpeg" alt="Traffic Sign Detection">
+                            <div class="layer">
+                                <h3>Enhanced Traffic Sign Management System Using CNNs </h3>
+                                <p>This system uses Convolutional Neural Networks (CNNs) to detect traffic signs, enhancing road safety with voice interaction and live visual feedback.</p>
+                                <a href="https://www.linkedin.com/posts/thirumalleswaripayani_iciaet24-trafficsafety-machinelearning-activity-7250767032130957313-DQmg?utm_source=share&utm_medium=member_desktop" target="_blank" class="conference-badge"><i class="fas fa-award"></i> Presented at ICIAET-24</a>
+                            </div>
+                            
+                        </div>
+                        <div class="work">
+                            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&h=350&fit=crop" alt="Food Delivery App">
+                            <div class="layer">
+                                <h3>Online Food Delivery App</h3>
+                                <p>The app provides a seamless platform to browse, order, and enjoy meals from various restaurants.</p>
+                                <div class="project-buttons">
+                                    <a href="https://www.linkedin.com/posts/thirumalleswaripayani_java-webdevelopment-jdbc-activity-7265310995982536704-dzop?utm_source=share&utm_medium=member_desktop" target="_blank" class="project-btn"><i class="fas fa-eye"></i> View</a>
+                                    <a href="https://github.com/Thirumalliswari01/Foodies-Fantasy-FoodApp" target="_blank" class="project-btn"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="https://images.unsplash.com/photo-1611996575749-79a3a250f948?w=500&h=350&fit=crop" alt="Tic-Tac-Toe Game">
+                            <div class="layer">
+                                <h3>Tic-Tac-Toe Game</h3>
+                                <p>A classic two-player game where players take turns marking X and O to form a winning line on a 3x3 grid.</p>
+                                <div class="project-buttons">
+                                    <a href="https://github.com/Thirumalliswari01/Tic-Tac-Toe-Game" target="_blank" class="project-btn"><i class="fas fa-eye"></i> View</a>
+                                    <a href="https://github.com/Thirumalliswari01/Tic-Tac-Toe-Game" target="_blank" class="project-btn"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btm">See more</a>
+                </div>
+            </div>
+
+            <!----------- Course & Certifications ----------- -->
+            <section class="section" id="certifications">
+                <div class="top-header">
+                    <h1>Course & Certifications</h1>
+                </div>
+                <div class="cert-container">
+                    <div class="cert-card">
+                        <div class="cert-content">
+                            <div class="cert-type course">Course</div>
+                            <h3 class="cert-title">Full Stack Web Development</h3>
+                            <p class="cert-org"><i class="fas fa-building"></i> Tap Academy, Bangalore</p>
+                            <p class="cert-year"><i class="far fa-calendar"></i> 2024</p>
+                            <p class="cert-desc">Completed comprehensive full stack training in Java, Spring Boot, Hibernate, MySQL, HTML, CSS, and JavaScript with hands-on project development.</p>
+                            <a href="https://www.linkedin.com/posts/thirumalleswaripayani_fullstackdeveloper-javadeveloper-webdevelopment-activity-7434560120493170688-6clS?utm_source=share&utm_medium=member_desktop" target="_blank" class="cert-btn cert-btn-course"><i class="fas fa-certificate"></i> View Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-content">
+                            <div class="cert-type certification">Certification</div>
+                            <h3 class="cert-title">Software Engineering Intern Certificate</h3>
+                            <p class="cert-org"><i class="fas fa-building"></i> HackerRank</p>
+                            <p class="cert-desc">Completed intensive software engineering program focusing on coding, problem-solving, and algorithm optimization.</p>
+                            <a href="https://www.hackerrank.com/certificates/57def7132f04" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-content">
+                            <div class="cert-type certification">Certification</div>
+                            <h3 class="cert-title">Problem Solving Certificate</h3>
+                            <p class="cert-org"><i class="fas fa-building"></i> HackerRank</p>
+                            <p class="cert-desc">Demonstrated strong problem-solving skills and algorithmic thinking through comprehensive coding challenges.</p>
+                            <a href="https://www.hackerrank.com/certificates/cf852c22abea" target="_blank" class="cert-btn">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+            
+            
+           
+           
+            
+            
+            <!---contact box--->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work <span style="color: var(--primary-color);">Together</span></h1>
+                    <p>I'm excited to start my career! Let's connect and discuss how I can contribute to your projects:</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-left">
+                        <div class="contact-image">
+                            <img src="girl_cartoon.png" alt="Contact">
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form action="https://formsubmit.co/thirumalliswari05@gmail.com" method="POST" class="contact-form">
+                            <!-- FormSubmit Configuration -->
+                            <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="text" name="_honey" style="display:none">
+                            
+                            <div class="form-row">
+                                <input type="text" name="first_name" class="input-field half" placeholder="First Name" required>
+                                <input type="text" name="last_name" class="input-field half" placeholder="Last Name" required>
+                            </div>
+                            <input type="email" name="email" class="input-field full" placeholder="Email Address" required>
+                            <input type="tel" name="phone" class="input-field full" placeholder="Phone Number" required>
+                            <textarea name="message" class="input-field full message-field" placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!---Footer--->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#certifications">Certifications</a>
+                    </li>
+                    <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/thiru_.01" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/thirumalleswaripayani" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.hackerrank.com/profile/thirumalliswari1" target="_blank" class="icon"><i class="fab fa-hackerrank"></i></a>
+                <a href="https://github.com/Thirumalliswari01" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a> 
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Thiru</a>. All rights reserved 2024.</p>
+            </div>
+            
+        </footer>
+
+    </div>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
+
