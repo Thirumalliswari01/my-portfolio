@@ -79,11 +79,12 @@ LinkedIn: https://www.linkedin.com/in/thirumalleswaripayani
 
 ---
 
-Made with ❤️ by Thirumalleswari Payani
+
 
 <div align="center">
 
 **Made with ❤️ by Thiru**
 
 </div>
+
 
