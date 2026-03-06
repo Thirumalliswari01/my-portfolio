@@ -68,14 +68,22 @@ Push the generated code to this repository's **master** branch.
 
 ---
 
-## License 📄
+## Author
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+**Thirumalleswari Payani**
+
+GitHub: https://github.com/Thirumalliswari01  
+LinkedIn: https://www.linkedin.com/in/thirumalleswaripayani  
+
+⭐ If you like this project, feel free to give it a star.
 
 ---
 
+Made with ❤️ by Thirumalleswari Payani
+
 <div align="center">
 
-**Made with ❤️ by Thirumalleswari Payani**
+**Made with ❤️ by Thiru**
 
 </div>
+
